@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   discovery-service:
-    image: docker.pkg.github.com/betulcetinkaya/discovery-service/${BRANCH}:${TAG}
+    image: docker.pkg.github.com/betulcetinkaya/discovery-service/${IMAGE_NAME}:${TAG}
     container_name: discovery-service
     ports:
       - 8761:8761
